@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="css/fruits.css" type="text/css" rel="stylesheet">
+    <title>Supermarket</title>
+</head>
+<body>
+    <!-- page navigation -->
+    <header>
+        <div class="header">
+            <div>Welcome to your online fruit Supermarket!</div>
+        </div>
+    </header>
+    <nav>Drag and drop your fruits into the shopping cart</nav>
+    <div class="cart">
+        <img id="cart-img" height="100px" ondrop="drop(event)" ondragover="allowDrop(event)" src="jpg/cart.svg">
+    </div>
+
+    <!-- main section -->
+    <main class="container">
+        <div class="list-item">
+            <img id="apple" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/apple.png">
+            <p>Apple</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="banana" height="100px" ondragstart="drag(event)" draggable="true"  src="jpg/banana.png">
+            <p>Banana</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="cherries" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/cherries.png">
+            <p>Cherries</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="grapes" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/grapes-1.png">
+            <p>Grapes</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="kiwi" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/kiwi.png">
+            <p>Kiwi</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="lemon" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/lemon.png">
+            <p>Lemon</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="orange" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/orange.png">
+            <p>Orange</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="peach" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/peach.png">
+            <p>Peach</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="pear" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/pear.png" >
+            <p>Pear</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="pineapple" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/pineapple.png">
+            <p>Pineapple</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="strawberry" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/strawberry.png" >
+            <p>Strawberry</p>
+            <p>1.00€</p>
+        </div>
+        <div class="list-item">
+            <img id="watermelon" height="100px" ondragstart="drag(event)" draggable="true" src="jpg/watermelon.png">
+            <p>Watermelon</p>
+            <p>1.00€</p>
+        </div>
+    </main>
+
+    <!-- footer section-->
+    <footer>
+        @ made by Clarissa Ardon - Front End Developer Bootcamp - GeeksHubs
+    </footer>
+
+    <script src="fruits.js"></script>
+</body>
+</html>
